@@ -103,5 +103,6 @@ obj-$(CONFIG_REGULATOR_WM8994) += wm8994-regulator.o
 obj-$(CONFIG_REGULATOR_RICOH619) += ricoh619-regulator.o
 obj-$(CONFIG_REGULATOR_FP9928) += fp9928-regulator.o
 obj-$(CONFIG_REGULATOR_TPS6518X) += tps6518x-regulator.o
+obj-$(CONFIG_REGULATOR_SY7636) += sy7636-regulator.o
 
 ccflags-$(CONFIG_REGULATOR_DEBUG) += -DDEBUG

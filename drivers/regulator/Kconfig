@@ -332,6 +332,10 @@ config REGULATOR_TPS6518X
         tristate "Texas Instruments TPS6518X Regulator Support"
         depends on MFD_TPS6518X
 
+config REGULATOR_SY7636
+        tristate "Silergy SY7636 Regulator Support"
+        depends on MFD_SY7636
+
 config REGULATOR_FP9928
         tristate "Fiti power FP9928 Regulator Support"
         depends on MFD_FP9928
