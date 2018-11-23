@@ -237,4 +237,14 @@ static inline void imx_init_l2cache(void) {}
 extern struct smp_operations imx_smp_ops;
 extern struct smp_operations ls1021a_smp_ops;
 
+
+////////////////////////////////
+#include "ntx_hwconfig.h"
+extern volatile NTX_HWCONFIG *gptHWCFG;
+extern int gIsCustomerUi;
+extern int gSleep_Mode_Suspend;
+extern volatile int giBootPort;
+void ntx_parse_cmdline(void);
+////////////////////////////////
+
 #endif
