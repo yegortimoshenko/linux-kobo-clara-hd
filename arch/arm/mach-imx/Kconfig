@@ -605,7 +605,7 @@ config SOC_IMX6SX
 	select RPMSG
 	select IMX_SEMA4
 	select MXC_MLB150
-	select KEYBOARD_SNVS_PWRKEY
+	#select KEYBOARD_SNVS_PWRKEY
 
 	help
 	  This enables support for Freescale i.MX6 SoloX processor.
@@ -614,7 +614,7 @@ config SOC_IMX6UL
 	bool "i.MX6 UltraLite support"
 	select PINCTRL_IMX6UL
 	select SOC_IMX6
-	select KEYBOARD_SNVS_PWRKEY
+	#select KEYBOARD_SNVS_PWRKEY
 	select ARM_ERRATA_814220
 
 	help
@@ -646,7 +646,7 @@ config SOC_IMX7D
 	select HAVE_IMX_MU
 	select HAVE_IMX_RPMSG
 	select RPMSG
-	select KEYBOARD_SNVS_PWRKEY
+	#select KEYBOARD_SNVS_PWRKEY
 
 	help
 	  This enables support for Freescale i.MX7 Dual processor.
