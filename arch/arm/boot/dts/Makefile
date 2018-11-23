@@ -432,6 +432,7 @@ dtb-$(CONFIG_SOC_IMX6ULL) += \
 	imx6ull-14x14-evk-usb-certi.dtb \
 	imx6ull-ntx-e60u02.dtb \
 	imx6ull-ntx-e60u02a1.dtb \
+	imx6ull-e60u12.dtb \
 	imx6ull-9x9-evk.dtb \
 	imx6ull-9x9-evk-btwifi.dtb \
 	imx6ull-9x9-evk-ldo.dtb
