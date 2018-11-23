@@ -704,5 +704,6 @@ config SOC_LS1021A
 endif
 
 source "arch/arm/mach-imx/devices/Kconfig"
+source "kernel/ntx/Kconfig"
 
 endif
