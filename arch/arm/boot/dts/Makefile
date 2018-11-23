@@ -398,6 +398,7 @@ dtb-$(CONFIG_SOC_IMX6UL) += \
 	imx6ul-9x9-evk-csi.dtb \
 	imx6ul-9x9-evk-ldo.dtb
 dtb-$(CONFIG_SOC_IMX6SLL) += \
+	imx6sll-lpddr2-ntx.dtb \
 	imx6sll-e80k02.dtb \
 	imx6sll-e80k02-sy7636.dtb \
 	imx6sll-e70q02.dtb \
