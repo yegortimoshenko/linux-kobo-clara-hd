@@ -722,7 +722,7 @@ int set_low_bus_freq(void)
 		 * the conditions still remain the same.
 		 */
 		schedule_delayed_work(&low_bus_freq_handler,
-					usecs_to_jiffies(3000000));
+					usecs_to_jiffies(5000000));
 	return 0;
 }
 
