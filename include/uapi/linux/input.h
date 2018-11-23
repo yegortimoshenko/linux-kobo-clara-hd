@@ -907,6 +907,21 @@ struct input_keymap_entry {
 #define MSC_CNT			(MSC_MAX+1)
 
 /*
+ * Netronix Misc RAW event values .
+ * 0x0X - EPD
+ * 0x1X - ALS
+ */
+#define MSC_RAW_EPD_DCDC1_ERROR		0x01
+#define MSC_RAW_EPD_DCDC2_ERROR		0x02
+#define MSC_RAW_EPD_VEE_ERROR		0x03
+#define MSC_RAW_EPD_VCOM_ERROR		0x04
+#define MSC_RAW_EPD_VPOS_ERROR		0x05
+#define MSC_RAW_EPD_VNEG_ERROR		0x06
+#define MSC_RAW_EPD_VDDH_ERROR		0x07
+#define MSC_RAW_EPD_OVT_ERROR		0x08 // over-temperature .
+#define MSC_RAW_EPD_UNKOWN_ERROR	0x09 // .
+
+/*
  * LEDs
  */
 
