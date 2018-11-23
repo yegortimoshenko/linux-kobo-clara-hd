@@ -332,6 +332,10 @@ config REGULATOR_TPS6518X
         tristate "Texas Instruments TPS6518X Regulator Support"
         depends on MFD_TPS6518X
 
+config REGULATOR_FP9928
+        tristate "Fiti power FP9928 Regulator Support"
+        depends on MFD_FP9928
+
 config REGULATOR_MAX8649
 	tristate "Maxim 8649 voltage regulator"
 	depends on I2C
