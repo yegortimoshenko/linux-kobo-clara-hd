@@ -194,6 +194,7 @@
 	V3P3-supply = <&V3P3_reg>;
 	VCOM-supply = <&VCOM_reg>;
 	DISPLAY-supply = <&DISPLAY_reg>;
+	TMST-supply = <&TMST_reg>;
 	en-gpios = <&gpio1 4 GPIO_ACTIVE_HIGH>;
 	status = "disabled";
 };
@@ -501,6 +502,16 @@
 			V3P3_reg: V3P3 {
 				regulator-name = "V3P3";
 			};
+
+
+			TMST_reg: TMST {
+				regulator-name = "TMST";
+				/* 2's-compliment, -127 */
+				regulator-min-microvolt = <0xffffff81>;
+				/* 2's-compliment, +127 */
+				regulator-max-microvolt = <0x0000007f>;
+			};
+
 		};
 	};
 };
