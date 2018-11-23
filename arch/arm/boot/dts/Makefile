@@ -430,6 +430,7 @@ dtb-$(CONFIG_SOC_IMX6ULL) += \
 	imx6ull-14x14-evk-emmc.dtb \
 	imx6ull-14x14-evk-gpmi-weim.dtb \
 	imx6ull-14x14-evk-usb-certi.dtb \
+	imx6ull-ntx-ddr3.dtb \
 	imx6ull-ntx-e60u02.dtb \
 	imx6ull-ntx-e60u02a1.dtb \
 	imx6ull-e60u12.dtb \
